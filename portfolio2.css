@@ -4,6 +4,12 @@ body {
 
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+    background-image: url(css2-pattern-by-magicpattern.png);
+  }
+
 #nav {
 
     border: 1% solid black;
@@ -50,13 +56,13 @@ body {
 
   #linkedin {
 
-    color: black;
+    color: rgb(135, 135, 135);
     font-size: 2em;
   }
 
   #github {
 
-    color: black;
+    color: rgb(135, 135, 135);
     font-size: 2em;
   }
   
@@ -98,6 +104,11 @@ body {
    
 }
 
+.card {
+
+    color: rgb(17, 17, 17);
+}
+
 
 
 
@@ -117,15 +128,20 @@ body {
 
 #linkedin {
 
-    color: black;
+    color: rgb(135, 135, 135);
     font-size: 2em;
   }
 
   #github {
 
-    color: black;
+    color: rgb(135, 135, 135);
     font-size: 2em;
   }
+
+  .card {
+
+    color: rgb(15, 15, 15);
+}
 
 
 }
