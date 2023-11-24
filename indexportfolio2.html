@@ -17,12 +17,19 @@
     <title>My works</title>
 </head>
 <body>
+  <!--Darkmode-->
+  <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
 
     <!--Inserisco la navbar-->
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Welcome</a>
+          <a class="navbar-brand" href="indexportfolio.html">Welcome</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,7 +37,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">homepage</a>
+                <a class="nav-link active" aria-current="page" href="indexportfolio.html">homepage</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="indexportfolio2.html">works</a>
@@ -61,7 +68,7 @@
           <img src="fotoport8.png" class="card-img-top" alt="fashion">
           <div class="card-body">
             <h5 class="card-title">Fashion week</h5>
-            <p class="card-text">Work based on Vogue Italia's own website.</p>
+            <p class="card-text">Work based on Vogue Italia's own website.</color></p>
           </div>
           <div class="card-footer">
             <small class="text-muted"><a href="https://github.com/gianmarcodauria/fashionsite" target="_blank" id="blank1">Click here for more.<br> [images are only for educational purposes] </a></small>
@@ -82,15 +89,27 @@
 
       <!---icone social-->
 
-      <div class="iconesocial">
+      <div class="iconesocial"> 
+          <!-- Checkbox Toggle -->
+    <input type="submit" value="darkmode / lightmode" id="toggle" onclick="myFunction()">
+
+    <!-- Container -->
+    <div class="container">
+    </div>
+      <br>
+
         <p>Contact me.</p>
       <a href="https://www.linkedin.com/in/gianmarco-d%E2%80%99auria-3a20842a0/" class="fa fa-linkedin" id="linkedin" target="_blank"></a>
-      <a href="https://github.com/gianmarcodauria" class="fa fa-github" id="github" target="_blank"></a>
-      <button type="button" class="btn btn-secondary btn-secondary" id="bottoneport"><a href="https://github.com/gianmarcodauria?tab=repositories" target="_blank" id="blank">works on github</a></button>
+      <a href="https://github.com/" class="fa fa-github" id="github" target="_blank"></a>
+      <button type="button" class="btn btn-secondary btn-secondary" id="bottoneport"><a href="indexportfolio2.html" target="_blank" id="blank">works on github</a></button>
       <br>
       </div>
+
+    
 
   </body>
 
 
 </html>
+        
+        
