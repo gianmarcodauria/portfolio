@@ -5,7 +5,7 @@ body {
 }
 
 .dark-mode {
-    background-color: black;
+    
     color: white;
     background-image: url(css2-pattern-by-magicpattern.png);
   }
@@ -127,7 +127,7 @@ body {
 }
 
     .dark-mode {
-  background-color: black;
+ 
   color: white;
   background-image: url(css2-pattern-by-magicpattern.png);
  
