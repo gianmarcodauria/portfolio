@@ -1,0 +1,119 @@
+body {
+
+    background-image: url(csspattern3.png);
+
+}
+
+#nav {
+
+    border: 1% solid black;
+}
+
+
+#Welcome {
+
+    padding-left: 1%;
+}
+
+#blank {
+
+    color: white;
+    text-decoration: none;
+}
+
+ 
+
+.fa {
+    padding: 20px;
+    font-size: 30%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+
+  #linkedin {
+
+    color: black;
+    font-size: 2em;
+  }
+
+  #github {
+
+    color: black;
+    font-size: 2em;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+
+#presentazione {
+    text-align: center;
+    font-size: 1.3em;
+
+
+}
+.col1 img {
+
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    width: 30%;
+    border: solid 10% black;
+}
+
+
+
+#footer {
+
+    background-color: rgb(194, 194, 194);
+    opacity: 90%;
+    height: 20%;
+}
+
+#Copyright {
+    background-color: rgb(194, 194, 194);
+    color: rgb(192, 192, 192, 1);
+    height: 20%;
+    opacity: 90%;
+   
+}
+
+@media only screen and (max-width: 600px){
+
+    .col1 img {
+
+        border-top-left-radius: 50% 50%;
+        border-top-right-radius: 50% 50%;
+        border-bottom-right-radius: 50% 50%;
+        border-bottom-left-radius: 50% 50%;
+        width: 50%;
+        border: solid 2% black;
+
+
+}
+
+#linkedin {
+
+    color: black;
+    font-size: 2em;
+  }
+
+  #github {
+
+    color: black;
+    font-size: 2em;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+}
